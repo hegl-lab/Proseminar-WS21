@@ -1,0 +1,3 @@
+HEGL Seminar Project: Logo Research Station
+
+Our aim is to visualise the HEGL logo in Python and create a 3D print of it, with the optional extension of doing the same with other hyperbolic patterns, potentially based on simplifications of Escher art.
