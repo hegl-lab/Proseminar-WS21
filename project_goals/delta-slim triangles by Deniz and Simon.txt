@@ -1,0 +1,18 @@
+delta-slim triangles in hyperbolic models- a Project by Deniz Aydin and Simon Heidrich
+
+In this project we want to explore the delta-hyperbolicity of triangles in hyperbolic triangles. It is set up in multiple steps, as soon as we achive one goal we proceed with the next one.
+
+1. For given triangle on the Poincaré-disk model find the minimal delta
+	Output: Jupiter-Notebook
+	1.1 show given triangle in The Poincaré-disk model in a svg or png
+	1.2 algorithm and/or mathematical formula to determine the minimal delta for the triangle
+	1.3 show the results (triangle with delta-neigbourhood and delta-value) as svg or png
+2.The delta for the Poincaré-disk model
+	Output: Jupiter-Notebook
+	2.1 create random triangles in Poincaré-disk model
+	2.2 find algorithm to determine the delta numerically (and show mathematican way to find delta)
+	2.3 show results and 'proof' that the delta hold by user input triangle
+3.What do transforms with the delta-slim property?
+	Output: still to be determined
+	3.1 visualize transformations into other models of triangle with it's delta neigbourhood
+	3.2 the things we find out in the process...
