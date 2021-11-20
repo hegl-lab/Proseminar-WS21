@@ -1,0 +1,8 @@
+Ping Pong Game in Hyperboic geometry
+
+General plan:
+Making a ping pong game on the Poincaré disk. Two players playing against each other.
+The goal is to visualise certain aspects of the Poincaré disk in an entertaining way.
+
+Goals until 1st December:
+Understanding how to make hyperbolic graphics and objects move. Finishing the general concept of our game and what it's supposed to look like.
