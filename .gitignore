@@ -1,1 +1,5 @@
+# ignore .DS_stroe file
 .DS_Store
+
+# ingore folder __pycache__
+__pycache__/
