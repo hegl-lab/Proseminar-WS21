@@ -31,7 +31,7 @@ def _pointsInlineWithOrigin(x1, y1, x2, y2):
         return nearZero(y1/x1 - y2/x2)
 
 
-def fromPoints(cls, x1, y1, x2, y2, segment=False, **kwargs):
+def fromPoints(x1, y1, x2, y2, segment=False, **kwargs):
     if nearZero(x1-x2) and nearZero(y1-y2):
         raise ValueError('Start and end points are the same')
     if _pointsInlineWithOrigin(x1, y1, x2, y2):
