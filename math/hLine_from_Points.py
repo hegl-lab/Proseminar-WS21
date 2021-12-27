@@ -10,12 +10,10 @@ from hyperbolic.euclid.shapes import Circle, Arc, Line as ELine
 from hyperbolic.euclid import intersection
 from hyperbolic.poincare.shapes import Hypercycle
 
-
-
 def fromPoints( x1, y1, x2, y2, segment=False, **kwargs):
     if util.nearZero(x1-x2) and util.nearZero(y1-y2):
         raise ValueError('Start and end points are the same')
-    if cls._pointsInlineWithOrigin(x1, y1, x2, y2):
+    if _pointsInlineWithOrigin(x1, y1, x2, y2):
         if segment:
             shape = ELine(x1, y1, x2, y2)
             return (shape,True)
